@@ -4,4 +4,5 @@ export interface Livro {
   Titulo: string;
   Preco: number;
   DataPublicacao: Date;
+  CriadoEm: Date;
 }

@@ -5,10 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LivroCadastrarComponent } from './components/livro-cadastrar/livro-cadastrar.component';
+import { LivroListarComponent } from './components/livro-listar/livro-listar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LivroCadastrarComponent,
+    LivroListarComponent
   ],
   imports: [
     FormsModule,
