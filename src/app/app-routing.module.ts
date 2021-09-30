@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LivroCadastrarComponent } from './components/livro-cadastrar/livro-cadastrar.component';
-import { LivroListarComponent } from './components/livro-listar/livro-listar.component';
+import { LivroCadastrarComponent } from './components/views/livro/livro-cadastrar/livro-cadastrar.component';
+import { LivroListarComponent } from './components/views/livro/livro-listar/livro-listar.component';
 
 const routes: Routes = [
 {
@@ -9,7 +9,7 @@ const routes: Routes = [
     component: LivroCadastrarComponent
   },
   {
-    path: "list",
+    path: "",
     component: LivroListarComponent
   }
 ];

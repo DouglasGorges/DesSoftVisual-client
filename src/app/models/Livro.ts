@@ -1,8 +1,8 @@
 export interface Livro {
   _id?: number;
-  Autor: string;
-  Titulo: string;
-  Preco: number;
-  DataPublicacao: Date;
-  CriadoEm: Date;
+  autor: string;
+  titulo: string;
+  preco: number;
+  dataPublicacao: Date;
+  criadoEm?: Date;
 }

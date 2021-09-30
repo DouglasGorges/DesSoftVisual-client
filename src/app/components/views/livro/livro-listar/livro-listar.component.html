@@ -1,0 +1,6 @@
+<button (click)="cadastrar()">Cadastrar</button>
+<ol>
+    <li *ngFor="let livro of livros">
+        {{ livro.autor }}, {{ livro.titulo }}, {{ livro.preco }}, {{ livro.dataPublicacao }}
+    </li>
+</ol>
