@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-/*{
-    path: "contaCorrente/create",
-    component: ContaCorrenteCadastrarComponent
+{
+    path: "/create",
+    component: LivroCadastrarComponent
   },
   {
-    path: "contaCorrente/list",
-    component: ContaCorrenteListarComponent
-  }*/
+    path: "/list",
+    component: LivroListarComponent
+  }
 ];
 
 @NgModule({
